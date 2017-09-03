@@ -11,7 +11,6 @@ build:
 deploy:
   # TODO switch to using aws cli packed alpine image
   # TODO switch to using aws client instead of s3sync
-  # TODO add cloudfront cache invalidation call to end of this
   box: ruby
   steps:
     - s3sync:
