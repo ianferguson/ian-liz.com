@@ -1,0 +1,4 @@
+/* override background image alignment/position */
+#bg:after, #bg:before {
+    background-position: top;
+}
