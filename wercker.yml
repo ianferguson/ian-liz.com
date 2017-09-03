@@ -7,7 +7,6 @@ build:
             git submodule update --init --recursive
     - arjen/hugo-build:
         version: "0.18.1"
-        #        theme: hugo-agency-theme
         flags: --buildDrafts=false
 deploy:
   # TODO switch to using aws cli packed alpine image
