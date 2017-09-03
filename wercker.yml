@@ -1,0 +1,22 @@
+build:
+  box: andthensome/alpine-hugo-git-bash
+  steps:
+    - script:
+        name: initialize git submodules for themes
+        code: |
+            git submodule update --init --recursive
+    - arjen/hugo-build:
+        version: "0.18.1"
+        theme: hugo-agency-theme
+        flags: --buildDrafts=false
+deploy:
+  # TODO switch to using aws cli packed alpine image
+  # TODO switch to using aws client instead of s3sync
+  # TODO add cloudfront cache invalidation call to end of this
+  box: ruby
+  steps:
+    - s3sync:
+        key-id: $AWS_ACCESS_KEY_ID
+        key-secret: $AWS_SECRET_ACCESS_KEY
+        bucket-url: $AWS_BUCKET_URL
+        source-dir: public/
