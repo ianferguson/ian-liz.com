@@ -1,6 +1,6 @@
 +++
 title = "Registry"
-weight = 30
+weight = 50
 draft = false
 +++
 

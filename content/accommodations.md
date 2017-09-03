@@ -1,7 +1,7 @@
 +++
 title = "Travel & Accommodations"
 menuname = "Travel"
-weight = 30
+weight = 20
 draft = false
 +++
 
