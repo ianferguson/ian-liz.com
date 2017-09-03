@@ -4,5 +4,7 @@ weight = 30
 draft = false
 +++
 
-{{< figure class="image main" src="/images/pic03.jpg" >}}
-Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.
+{{< figure class="image main" src="/images/josephine-butler.jpg" >}}
+We're excited for you to join us on April 14th as the Josephine Butler Parks Center in Washington, DC to celebrate the marriage of Ian & Liz.
+
+A happy hour will begin at TKTK followed by the ceremony at TKTK. After the ceremony, a reception and dinner will continue at the Josephone Butler Parks Center.
