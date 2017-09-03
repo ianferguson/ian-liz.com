@@ -1,5 +1,6 @@
 +++
-title = "Accommodations"
+title = "Travel & Accommodations"
+menuname = "Travel"
 weight = 30
 draft = false
 +++
