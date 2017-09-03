@@ -1,26 +1,41 @@
 +++
 title = "Contact"
-weight = 40
+weight = 60
 draft = false
 +++
 
-<form action="https://formspree.io/info@ianferguson.io" method="POST">
-  <div class="field half first">
-		<label for="name">Name</label>
-		<input type="text" name="name" id="name" placeholder="Your name"/>
+<form id="contactform" method="post" action="https://formspree.io/info@ianferguson.io">
+	<div class="field half first">
+		<input type="text" name="name" id="name" placeholder="Name"/>
 	</div>
 	<div class="field half">
-		<label for="email">Email</label>
-    <input id=email type="email" name="email" placeholder="Your email address">
+		<input type="email" id="email" name="email" placeholder="Email">
 	</div>
 	<div class="field">
-		<label for="message">Message</label>
-		<textarea name="message" id="message" rows="4"></textarea>
+		<textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
 	</div>
 	<ul class="actions">
-		<li><input type="submit" value="Send" class="special" /></li>
+		<li><input type="submit" value="Send message" class="special" /></li>
+		<li><input type="reset" value="Reset" /></li>
 	</ul>
+	<input type="hidden" name="_next" value="?sent#contact" />
+	<input type="hidden" name="_subject" value="Subject for your mail like new message" />
+	<input type="text" name="_gotcha" style="display:none" />
 </form>
+<span id="contactformsent">Thank you for your message</span>
+
+<script>
+$(document).ready(function($) {
+    $(function(){
+        if (window.location.search == "?sent") {
+        	$('#contactform').hide();
+        	$('#contactformsent').show();
+        } else {
+        	$('#contactformsent').hide();
+        }
+    });
+});
+</script>
 
 
 {{< socialLinks >}}
