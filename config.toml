@@ -7,8 +7,8 @@ enableRobotsTXT = true
 disableRSS = true
 
 [params]
-  title = "April 14, 2018"
-  description = "Ian & Liz's Wedding"
+  title = "Ian & Liz's Wedding"
+  description = "April 14, 2018"
 
   logo = "fa-diamond"
   copyright = "2017"
