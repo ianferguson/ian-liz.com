@@ -6,7 +6,7 @@ build:
         code: |
             git submodule update --init --recursive
     - arjen/hugo-build:
-        version: "1.19.0"
+        version: "0.25.1"
         flags: --buildDrafts=false
 deploy:
   # TODO switch to using aws cli packed alpine image
