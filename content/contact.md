@@ -16,7 +16,6 @@ draft = false
 	</div>
 	<ul class="actions">
 		<li><input type="submit" value="Send message" class="special" /></li>
-		<li><input type="reset" value="Reset" /></li>
 	</ul>
 	<input type="hidden" name="_next" value="?sent#contact" />
 	<input type="hidden" name="_subject" value="Subject for your mail like new message" />
