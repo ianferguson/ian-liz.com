@@ -2,3 +2,9 @@
 #bg:after, #bg:before {
     background-position: top;
 }
+
+/* remove radial header shadow from theme */
+#header {
+  background-image: none;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, transparent 55%)
+}
