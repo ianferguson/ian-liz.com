@@ -2,7 +2,7 @@
 title = "Travel & Accommodations"
 menuname = "Travel"
 weight = 20
-draft = false
+draft = true
 +++
 
 {{< figure class="image main" src="/images/omni-shoreham.jpg" >}}
