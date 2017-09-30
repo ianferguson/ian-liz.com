@@ -1,7 +1,7 @@
 +++
 title = "Venue"
 weight = 15
-draft = true
+draft = false
 +++
 
 {{< figure class="image main" src="/images/josephine-butler.jpg" >}}
