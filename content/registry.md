@@ -1,7 +1,7 @@
 +++
 title = "Registry"
 weight = 50
-draft = true
+draft = false
 +++
 
 In lieu of gifts, donations to any of the following charities would be appreciated:
